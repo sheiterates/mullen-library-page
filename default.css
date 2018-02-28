@@ -1,0 +1,36 @@
+.center{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:30%;
+}
+body {
+  text-align:center;
+}
+h1{
+  color:#1229bc;
+}
+p{
+  color:#333c72;
+}
+
+p {
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+h3 {
+  font-family: 'Nova Flat', cursive;
+}
+
+li {
+  font-family: 'Satisfy', cursive;
+}
+
+li{ list-style-type: none;}

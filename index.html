@@ -1,0 +1,73 @@
+<!-- Demo page craeted by https://github.com/petr-goca -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="library.css">
+<!-- Latest compiled JavaScript -->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="library.js"></script>
+
+
+<header role="banner" aria-label="Heading">
+  <div class="header">
+    <div class="_cont">
+      <div class="shadow">
+        <h1 class="logo" title="Home">Mullen Library</h1>
+      </div>
+      <div class="mobile-menu">
+        <form action="/search" method="get" id="find">
+          <div>
+            <input type="text" name="q" id="find-input" class="find-input" placeholder="Search..." value="">
+            <button type="submit" title="Search" id="find-btn">Search</button>
+          </div>
+        </form>
+        <a id="customer_login_link">Sign In</a>
+        <nav role="navigation" aria-label="Catalog">
+          
+        </nav>
+      </div>
+      <span id="nav-icon"></span>
+    </div>
+  </div>
+  <!--
+  <div class="breadcrumb" role="navigation" aria-label="Breadcrumbs">
+    <div class="_cont">
+      <ol>
+        <li><a title="Back to the frontpage">Home</a></li>
+      </ol>
+    </div>
+  </div>
+  -->
+</header>
+<section aria-label="Main content" role="main" class="product-detail">
+  <div itemscope itemtype="http://schema.org/Product">
+    <div class="shadow">
+      <div class="_cont detail-top">
+        <div class="cols">
+          <div class="left-col">
+            <div id="imagebox" class="big">
+              <img src="https://zeerk.com/mod/uploads/2017/03/book.jpg" />
+            </div>
+          </div>
+          <div class="right-col">
+            <h1 id="titlebox" itemprop="name">Book Name</h1>
+            <h3 id="authorbox">Author</h3>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Books
+                <span class="caret"></span>
+              </button>
+              <ul id="booklist" class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<footer role="contentinfo" aria-label="Footer">
+    <div class="footer">
+        Made by Mullen Girls Who Code 2018
+    </div>
+</footer>
